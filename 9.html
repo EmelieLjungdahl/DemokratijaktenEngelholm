@@ -94,7 +94,7 @@ Du behöver sedan ändra ett saker på varje sida.
             Eftersom det är kommunen som ansvarar för lokalerna för förtidsröstning kollar du på<br> Ängelholms kommuns webbplats:<br>
            <a href="https://www.engelholm.se" target="_blank">www.engelholm.se</a> <br>
 
-           Var kan Lo förtidsrösta i Ängelholms kommun?
+           Nämn EN plats förutom stadshuset där Lo kan förstidsrösta i Ängelholms kommun.
             </p>
 
             <!--Ibland kanske du vill lägga till en bild i beskrivningen.
@@ -209,7 +209,10 @@ Du behöver sedan ändra ett saker på varje sida.
 
       */
 
-      if (answer == "bibliotek" || answer == "biblioteket" || answer == "ängelholms bibliotek" || answer == "biblioteket i ängelholm" || answer == "biblioteken" || answer == "biblioteken i ängelholm")  {
+      if (answer == "bibliotek" || answer == "biblioteket" ||answer == "på biblioteket" || answer == "ängelholms stadsbibliotek" ||answer == "på ängelholms stadsbibliotek" || 
+       answer == "biblioteken" || answer == "på biblioteken"|| answer == "munka ljungby bibliotek" || answer == "på munka ljungby bibliotek" || answer == "hjärnarps bibliotek" || 
+      answer == "på hjärnarps bibliotek" ||answer == "på vejbystrands bibliotek" || answer == "vejbystrands bibliotek" 
+      || answer == "på strövelstorps bibliotek" || answer == "strövelstorps bibliotek")  {
           return true;
       }else{
         document.getElementById("answer").value ="";
